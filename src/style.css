@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #eee;
+}
+.sidebar {
+  width: 200px;
+  background: #343a40;
+  color: white;
+  flex-shrink: 0;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+.sidebar a:hover {
+  background: #495057;
+  color: red;
+}
+.content {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.navbar {
+  background: #f8f9fa;
+  flex-shrink: 0;
+}
+.main-content {
+  padding: 20px;
+}
